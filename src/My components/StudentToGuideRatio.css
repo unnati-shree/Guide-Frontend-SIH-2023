@@ -1,0 +1,80 @@
+.dashboard {
+  /* display: flex;
+  flex-direction: column;
+  align-items: left; */
+  margin: 38px;
+  /* border: 2px solid black; */
+}
+
+h2{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+
+.statistics {
+  display: flex ;
+  flex-direction: row;
+  gap: 25px;
+ margin: 30px;
+ justify-content: center;
+ margin-top: 50px;
+ margin-bottom: 40px;
+}
+
+.stat {
+  /* background: linear-gradient(45deg, rgb(255, 153, 0), rgba(2, 250, 2, 0.692)); */
+  background: linear-gradient(to bottom, #ff9933, #ffffff, #138808);
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 200px;
+}
+.chart-container {
+  padding: 30px;
+  max-width: 500px; 
+  text-align: center;
+  /* border: 2px solid black; */
+}
+
+.chart-container canvas {
+  background-color: ;
+  max-width: 100%; 
+}
+
+.rounded-rectangle {
+  /* background: linear-gradient(45deg, rgb(255, 153, 0), rgba(2, 250, 2, 0.692)); */
+  background: linear-gradient(to bottom, #ff9933, #ffffff, #138808);
+  border-radius: 10px;
+  /* padding: 10px; */
+  text-align: center;
+  height: 140px;
+}
+
+.dash{
+  display: flex;
+  gap: 50px ;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.topic-rec img{
+  max-width: 200px;
+  max-height: auto;
+}
+
+.topic-rec{
+  padding: 30px;
+  /* border: 2px solid black; */
+  text-align: center;
+  padding: 30px;
+}
+
+.rounded-rectangle img{
+  margin-top: 15px;
+  max-width: 50px;
+  max-height: auto;
+  margin-bottom: 10px;
+}

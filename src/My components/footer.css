@@ -1,0 +1,47 @@
+
+footer {
+    background: linear-gradient(to top, rgba(247, 166, 52, 0.842), rgb(227, 149, 149));
+    padding: 10px;
+    margin-bottom: 5px;
+    color: #333; 
+  }
+  
+  .contact-heading {
+    margin-bottom: 5px;
+  }
+  
+  .contact-heading h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .contact-icon i {
+    margin-right: 10px;
+  }
+  
+  .socials {
+    margin-top: 20px;
+  }
+  
+  .socials a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333; /* Adjust icon color as needed */
+  }
+  
+  /* Optional: Style the font-awesome icons */
+  .fa-solid, .fa-brands {
+    font-family: 'Font Awesome 5 Free'; /* Make sure you have the Font Awesome styles loaded */
+  }
+  
