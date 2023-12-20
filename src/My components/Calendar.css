@@ -1,19 +1,19 @@
 .calendar-container {
-  width: 300px;
+  width: 18.75rem;
   /* border: 1px solid #ccc; */
-  border-radius: 8px;
+  border-radius: 0.5rem;
   overflow: hidden;
   /* position: absolute; */
   /* top: 10px; 
   right: 10px;  */
-  margin-top: 110px;
+  margin-top: 6.875rem;
 }
 
 .calendar-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 0.625rem;
   /* background-color: #eee; */
 }
 
@@ -25,7 +25,7 @@
 .calendar-day {
   flex: 1;
   text-align: center;
-  padding: 8px;
+  padding: 0.5rem;
   font-weight: bold;
 }
 
@@ -36,7 +36,7 @@
 
 .calendar-cell {
   text-align: center;
-  padding: 10px;
+  padding: 0.625rem;
   /* border-bottom: 1px solid #ccc;
   border-right: 1px solid #ccc; */
 }
@@ -53,20 +53,20 @@ button {
   /* background-color: transparent; */
   border: none;
   cursor: pointer;
-  font-size: 16px;
-  padding: 5px;
+  font-size: 1rem;
+  padding: 0.313rem;
   background-color: #13880892;
 
 }
 
-button:hover{
+button:hover {
   background-color: #138808;
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 
-.button{
+.button {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }

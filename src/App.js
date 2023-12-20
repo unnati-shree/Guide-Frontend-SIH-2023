@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, NavLink, Switch } from 'react-router-do
 import './App.css';
 import Calendar from './My components/Calendar';
 import Dashboard from './My components/Dashboard';
+import ProjectDetails from './My components/ProjectDetails';
 import StudentToGuideRatio from './My components/StudentToGuideRatio';
 import ConnectWithGuide from './My components/ConnectWithGuide';
 import MeetingWithGuide from './My components/MeetingWithGuide';
@@ -21,6 +22,8 @@ import LeaaderboardIcon from './Assets/leaderboard.svg';
 import toggleButtonImage from './Assets/menu.svg';
 import Footer from './My components/footer';
 import RightNav from './My components/RightSideNav';
+import HomeIcon from './Assets/home.svg';
+import ProjectDetailsImage from './Assets/project-details.svg';
 
 const App = () => {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -47,19 +50,9 @@ const App = () => {
               <NavLink to="/dashboard">
                 <div className='link'>
                   <div className='icon'>
-                    <img src={DashboardIcon} />
+                    <img src={HomeIcon} />
                   </div>
-                  Dashboard
-                </div>
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/student-guide-ratio">
-                <div className='link'>
-                  <div className='icon'>
-                    <img src={PieChartICon} />
-                  </div>
-                  Student to Guide ratio
+                  Home
                 </div>
               </NavLink>
             </li>
@@ -84,12 +77,12 @@ const App = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/submit-project">
+              <NavLink to="/ProjectDetails">
                 <div className='link'>
                   <div className='icon'>
-                    <img src={SubmitProjectIcon} />
+                    <img src={ProjectDetailsImage} />
                   </div>
-                  Submit Project
+                  Project Details
                 </div>
               </NavLink>
             </li>
@@ -133,7 +126,10 @@ const App = () => {
           <div className='dashboard'>
           <StudentToGuideRatio />
           </div>
-          </div>
+          {/* <div className='leaderboard'>
+          <LeaderboardComponent />
+        </div> */}
+        </div>
           <div className='right-side'>
             <RightNav/>
           </div>
