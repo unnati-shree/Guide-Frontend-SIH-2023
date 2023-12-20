@@ -1,37 +1,38 @@
 .leaderboard {
-  border: 1px solid #ccc;
-  padding: 16px;
-  margin: 16px 0;
-  border-radius: 8px;
+  /* border: 1px solid #ccc; */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  /* width: calc(100% - 240px);  */
-  /* position: fixed; */
-  width: 800px;
-  bottom: 0;
-  left: 240px; 
-  z-index: 1; 
+  width: 900px;
+  z-index: 1;
+  margin-top: 100px;
+  margin-left: 300px;
 }
 
 .leaderboard h2 {
   color: #333;
+  margin-bottom: 20px;
 }
 
 .leaderboard table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 16px;
+  margin-top: 20px;
 }
 
 .leaderboard th,
 .leaderboard td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
+  /* border: 1px solid #ddd; */
+  padding: 10px;
+  text-align: center;
 }
 
 .leaderboard th {
-  background-color: #007bff;
-  color: #fff;
+  /* background-color: #007bff; */
+  color: #000000;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
 }
 
 .leaderboard a {
@@ -41,4 +42,17 @@
 
 .leaderboard a:hover {
   text-decoration: underline;
+}
+
+.leaderboard tbody {
+  padding: 8px;
+}
+
+button{
+  background-color: #13880894;
+}
+
+button:hover{
+  background-color: #138808;
+  /* border-radius: 20px; */
 }

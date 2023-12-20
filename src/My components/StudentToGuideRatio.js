@@ -5,6 +5,7 @@ import TopicRecImage from '../Assets/topic-recommendation.jpeg';
 import TotalStudents from '../Assets/totalstudent.png';
 import TotalGuides from '../Assets/totalguide.svg';
 import TotalPublications from '../Assets/totalpublications.svg';
+import AyushLogo from '../Assets/ministryofayushlogo.jpg';
 
 function Dashboard() {
   const [data] = useState({
@@ -43,7 +44,10 @@ function Dashboard() {
 
   return (
     <div className="dashboard">
-      <h2>Student-Guide Ratio</h2>
+      <div className="ayush-logo">
+        <h2>Dashboard</h2>
+        <img src={AyushLogo}/>
+      </div>
       <div className="statistics">
         <div className="stat">
           <div className="rounded-rectangle">

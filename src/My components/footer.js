@@ -1,14 +1,24 @@
 import React from "react";
 import './footer.css';
+import ShardaLogo from '../Assets/shardalogo.png';
+import SihLogo from '../Assets/sihlogo.jpg';
 function Footer() {
 
   return <footer>
      <div class="contact-heading">
-            <h3>Contact Us</h3>
+      <div className="contact">
+      <h3>Contact Us</h3>
             <p>
-              Contact us on the phone or email and we will get back to you in
-              24 hours
+              Contact us on the phone or email and we will get back 
+              to you in 24 hours
             </p>
+      </div>
+      <div className="sharda-logo">
+            <img src={ShardaLogo}/>
+            </div>
+            <div className="sih-logo">
+              <img src={SihLogo}/>
+            </div>
           </div>
           <div class="contact-info">
             <div class="contact-icon">
@@ -19,7 +29,7 @@ function Footer() {
             <div class="contact-icon">
               <i class="fa-solid fa-envelope"></i>
               xyz@gmail.com
-            </div>
+            </div> 
           </div>
           {/* <div class="socials">
             <a target="blank" href="https://www.facebook.com/"

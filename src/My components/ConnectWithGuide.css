@@ -1,5 +1,5 @@
 .connect-with-guide {
-  position: relative;
+  /* position: relative; */
   border: 1px solid #ccc;
   padding: 16px;
   margin: 16px;
@@ -12,7 +12,7 @@
 }
 
 .connect-with-guide button {
-  position: relative;
+  /* position: relative; */
   background-color: #007bff;
   color: #fff;
   padding: 10px 16px;
@@ -22,7 +22,7 @@
   cursor: pointer;
 }
 
-.connect-with-guide button:disabled {
+/* .connect-with-guide button:disabled {
   background-color: #d3d3d3;
   cursor: not-allowed;
 }
@@ -36,4 +36,4 @@
   border-width: 5px;
   border-style: solid;
   border-color: transparent transparent transparent #007bff;
-}
+} */

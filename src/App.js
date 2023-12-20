@@ -19,9 +19,8 @@ import TopicIcon from './Assets/light-bulb.svg';
 import TaskIcon from './Assets/task.svg';
 import LeaaderboardIcon from './Assets/leaderboard.svg';
 import toggleButtonImage from './Assets/menu.svg';
-import OnlineMeetingImage from './Assets/online-meeting2.jpeg';
 import Footer from './My components/footer';
-
+import RightNav from './My components/RightSideNav';
 
 const App = () => {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -43,7 +42,6 @@ const App = () => {
     <Router>
       <div className={`app-container ${showSidebar ? 'show-sidebar' : ''}`}>
         <div className="sidebar">
-          <div>
             <ul>
             <li>
               <NavLink to="/dashboard">
@@ -127,26 +125,23 @@ const App = () => {
             </li>
           </ul>
           </div>
-            <img src={OnlineMeetingImage}/>
-            
-        </div>
+
         <div className={`toggle-button ${showSidebar ? 'open' : ''}`} onClick={toggleSidebar}>
           <img className="toggle-icon" src={toggleButtonImage} alt="Toggle Sidebar" />
         </div>
         <div className="content">
-          <div>
-          <Dashboard />
-          </div>
+          <div className='dashboard'>
           <StudentToGuideRatio />
-          <LeaderboardComponent />
-        </div>
-          <Calendar />
-          <MeetingWithGuide />
-        
+          </div>
+          </div>
+          <div className='right-side'>
+            <RightNav/>
+          </div>
       </div>
-      <div className='footer'>
+      <LeaderboardComponent />
+      <div>
         <Footer/>
-    </div>
+        </div>
     </Router>
   );
 };

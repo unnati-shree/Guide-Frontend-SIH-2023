@@ -1,13 +1,16 @@
 
 footer {
-    background: linear-gradient(to top, rgba(247, 166, 52, 0.842), rgb(227, 149, 149));
+    background-color: #1388086b;
     padding: 10px;
     margin-bottom: 5px;
     color: #333; 
+    width: 100%;
   }
-  
   .contact-heading {
+    display: flex;
+    flex-direction: row;
     margin-bottom: 5px;
+    justify-content: space-between;
   }
   
   .contact-heading h3 {
@@ -38,6 +41,16 @@ footer {
     margin-right: 10px;
     text-decoration: none;
     color: #333; /* Adjust icon color as needed */
+  }
+
+  .sharda-logo img{
+    max-width: 300px;
+    max-height: auto;
+  }
+
+  .sih-logo img{
+    max-width: 150px ;
+    max-height: auto;
   }
   
   /* Optional: Style the font-awesome icons */

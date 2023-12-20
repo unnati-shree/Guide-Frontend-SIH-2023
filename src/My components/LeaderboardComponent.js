@@ -32,7 +32,9 @@ const LeaderboardComponent = () => {
               <td>{student.submissionTime}</td>
               <td>
                 <a href={student.projectLink} target="_blank" rel="noopener noreferrer">
+                  <button>
                   View Project
+                  </button>
                 </a>
               </td>
             </tr>

@@ -61,11 +61,16 @@ const Calendar = () => {
   };
 
   return (
+    <>
     <div className="calendar-container">
       {renderHeader()}
       {renderDays()}
       {renderCells()}
     </div>
+    <div className='button'>
+      <button>Cal</button>
+    </div>
+    </>
   );
 };
 
