@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+## Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Our team Arogya Squad was selected for SIH 2023 Finale. We worked on a PG dissertation Management System. All of us worked on different modules. I was the frontend developer for the project.
+
+Below is the front page of the application.
+
+![SIH_guide_front_page](https://github.com/unnati-shree/Guide-Frontend/assets/123140669/b0460d8d-0370-4d6d-882f-1e55697e2047)
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+`npm i`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`npm start`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
 
-### `npm test`
+The page will reload if you make edits.
+You will also see any lint errors in the console.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## About the App
 
-### `npm run build`
+This application Developed by Arogya Squad for PG Dissertation Management provides the easy to use and convinient one stop solution at the institute level for PG Dissertation Management with various features which are mentioned below:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Provides a one stop solution for PG students to help them identify their respective research topic by providng them insights from the existing research by leveraging the Google Scholar's API in the field of their specialisation and interest.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- This way it also helps them reduce the redundancy in the research topics while the students are finalising their research topics.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- The application takes care of various levels of heirarchy as the database schema implemented by leveraging functionality of MongoDB helps us to provide and efficient way to store and fetch required data throughput the whole life cycle of PG dissertation.
 
-### `npm run eject`
+- The application also provides suitable features such as Plagiarism check by leveraging third party checkers like iThenticate which is a benchmark in the industry.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- We have provided different login and sign-up options for Deans, HoDs and students with their respective Dashboards and suitable relevant features.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Students and Guide can communicate inside the application with the chat application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Students and Guides can also schedule meetings in the application as well
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Students are also provided with a research Tool to Summarize their respective documents which can be literature or any other documents just to get a gist of the document.
