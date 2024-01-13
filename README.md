@@ -1,6 +1,6 @@
 ## Introduction
 
-Our team Arogya Squad was selected for SIH 2023 Finale. We worked on a PG dissertation Management System. All of us worked on different modules. I worked as the frontend developer for the project.
+Our team Arogya Squad was selected for SIH 2023 Finale. We worked on a PG dissertation Management System. All of us worked on different modules. I worked as the frontend developer for the project.We have created distinct front pages for various user roles; for example, there is a specific front page for students and another for the Dean. We have integrated these different front pages based on the type of user login
 
 Below is the front page of the application.
 
