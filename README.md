@@ -1,6 +1,6 @@
 ## Introduction
 
-Our team Arogya Squad was selected for SIH 2023 Finale. We worked on a PG dissertation Management System. All of us worked on different modules. I was the frontend developer for the project.
+Our team Arogya Squad was selected for SIH 2023 Finale. We worked on a PG dissertation Management System. All of us worked on different modules. I worked as the frontend developer for the project.
 
 Below is the front page of the application.
 
@@ -9,8 +9,6 @@ Below is the front page of the application.
 ## Available Scripts
 
 In the project directory, you can run:
-
-`npm i`
 
 `npm start`
 
